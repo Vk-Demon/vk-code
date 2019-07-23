@@ -1,0 +1,11 @@
+nump=int(input())
+numpal=nump
+revp=0
+while(nump>0):
+  remp=nump%10;
+  revp=revp*10+remp;
+  nump/=10;
+if(numpal==revp):
+  print("yes")
+else:
+  print("no")

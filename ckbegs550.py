@@ -1,6 +1,6 @@
 nt=int(input())
 c=0
-for i in range(1,nt):
+for i in range(0,nt):
   if((2**i)==nt):
     c=c+1
 if(c==0):

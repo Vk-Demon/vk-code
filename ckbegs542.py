@@ -9,4 +9,4 @@ if(xc>yc):
 elif(yc>xc):
   print(ystr)
 else:
-  print(xstr)
+  print(ystr)

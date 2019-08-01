@@ -1,0 +1,25 @@
+nnum=int(input())
+if(nnum==0):
+  print("Zero")
+elif(nnum==1):
+  print("One")
+elif(nnum==2):
+  print("Two")
+elif(nnum==3):
+  print("Three")
+elif(nnum==4):
+  print("Four")
+elif(nnum==5):
+  print("Five")
+elif(nnum==6):
+  print("Six")
+elif(nnum==7):
+  print("Seven")
+elif(nnum==8):
+  print("Eight")
+elif(nnum==9):
+  print("Nine")
+elif(nnum==10):
+  print("Ten")
+else:
+  print("invalid")

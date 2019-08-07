@@ -1,7 +1,7 @@
-rnum=int(input())
+rmnum=int(input())
 ssum=0
-while(rnum>0):
-  rem=rnum%10
+while(rmnum>0):
+  rem=rmnum%10
   ssum=ssum+rem
-  rnum=rnum//10
+  rmnum=rmnum//10
 print(ssum)

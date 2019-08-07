@@ -1,5 +1,5 @@
-enum=int(input())
-if(enum%2==0):
-  print(enum)
+evnum=int(input())
+if(evnum%2==0):
+  print(evnum)
 else:
-  print(enum-1)
+  print(evnum-1)

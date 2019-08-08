@@ -1,2 +1,2 @@
-str=input()
-print(str)
+qtpx=input()
+print(qtpx)

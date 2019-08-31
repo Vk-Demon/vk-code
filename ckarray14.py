@@ -4,9 +4,9 @@ lt2=[int(i) for i in input().split()]
 c1,c2=0,0
 for i in range(0,len(lt2)):
   if(lt2[i]==knum):
-    c1=i
+    c1=i+1
 for i in range(0,len(lt)):
   if(lt[i]==knum):
-    c2=i
-c3=(len(lt)-c2)-c1
+    c2=i+1
+c3=(len(lt)-c1)+c2
 print(c3)

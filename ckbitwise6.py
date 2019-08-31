@@ -17,8 +17,7 @@ if(c==1):
   if(ocs[len(ocs)-1]=='1'):
     p=p+l1[4]
 if(c==2):
-  for i in range(len(ocs)-2,len(ocs)-1):
-    for j in range(0,len(l2)):
-      if(s==l2[j]):
-        p=p+l[j] 
+  for j in range(0,len(l2)):
+    if(s==l2[j]):
+      p=p+l[j] 
 print(reverse(p))

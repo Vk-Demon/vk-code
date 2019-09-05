@@ -6,4 +6,4 @@ for i in range(0,nnum):
     if(lt[i]==lt[j]):
       cq=cq+1
   if(cq==1):
-    print(lt[i],end=" ")
+    print(lt[i])

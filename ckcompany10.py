@@ -1,4 +1,4 @@
-nst=input()
+nst=input() # Roman Reigns want to write a program that identify the repeated letters and capitalize it.Help him to achieve it.
 oc=[]
 for i in range(0,len(nst)):
   c=0
